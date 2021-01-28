@@ -1,0 +1,3 @@
+# sistema_de_cadastro_com_NodeJs
+Antes de Executar no TERMINAL o "npm start"
+Faça o " npm install " para instalar as dependências...
