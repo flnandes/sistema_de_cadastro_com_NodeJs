@@ -1,0 +1,45 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a{
+  width: 70px;
+  height: 20px;
+  font-family: monospace;
+  color: white;
+  background: darkblue;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 2px;
+  margin-left: 2px;
+}
+.btnSalvar{
+  font-family: monospace;
+  width: 70px;
+  height: 25px;
+  color: white;
+  background: darkblue;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 4px;
+}
+.interface{
+  text-align: center;
+  width: 320px;
+  height: 270px;
+  margin: 20px auto;
+  background: darkblue;
+  border: 2px solid lightblue;
+  box-shadow: 2px 0px 13px 10px rgba(144,248,236,0.47);
+  -webkit-box-shadow: 2px 0px 13px 10px rgba(144,248,236,0.47);
+  -moz-box-shadow: 2px 0px 13px 10px rgba(144,248,236,0.47);
+}
+.interface h1,p{
+  color: white;
+  font-family: monospace;
+}
+.interface form label{
+  color: white;
+  margin-left: 3px ;
+}

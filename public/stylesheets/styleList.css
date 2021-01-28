@@ -1,0 +1,42 @@
+a{
+    
+    font-family: monospace;
+    color: white;
+    background: darkblue;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 1px;
+  }
+  .btnEdit,.btnDelet{
+      margin: 5px 0px 0px 0px;
+  }
+  .interface .camposCat{
+      background-color: lightblue;
+      font-family: monospace;
+      border: 1px solid red;
+  }
+  .camposCat td{
+      color: darkblue;
+      font-family: monospace;
+  }
+
+  .interface{
+      text-align: center;
+      width: 350px;
+      height: 110%;
+      margin: 20px auto;
+      border: 2px solid lightblue;
+      background-color: darkblue;
+      box-shadow: 2px 0px 13px 10px rgba(144,248,236,0.47);
+  -webkit-box-shadow: 2px 0px 13px 10px rgba(144,248,236,0.47);
+  -moz-box-shadow: 2px 0px 13px 10px rgba(144,248,236,0.47);
+  }
+  .interface p, h1{
+      color: white;
+      font-family: monospace;
+  }
+.camposClient td{
+    color: white;
+    font-family: monospace;
+    padding: 5px;
+}
