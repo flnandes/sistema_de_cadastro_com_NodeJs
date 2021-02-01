@@ -1,4 +1,5 @@
 const mysql = require('mysql2/promise');
+const app = require('./app');
 async function connect(){
     //forma opcional de criar o objeto de conexão
     //const connectionString = 'mysql://root:luiztools@localhost:3306/crud'; 
@@ -14,8 +15,8 @@ async function connect(){
         password : '123456',
         database : 'crudluiztools'
     });
-
     console.log('Conectou no MySQL!');
+    console.log('conectou na porta 3000')
     global.connection = connection;
     return global.connection;
 }
